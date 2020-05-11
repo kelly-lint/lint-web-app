@@ -5,5 +5,7 @@ node("mavenlabel"){
   stage("build"){
   echo "execute maven command"
   }
-  
+  stage("test"){
+  echo "run test code "
+  }
 }
