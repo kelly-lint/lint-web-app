@@ -1,4 +1,6 @@
 node("mavenlabel"){
- stage(){
-}
+  stage("prepare"){
+  echo "add new repo url"
+  }
+  
 }
